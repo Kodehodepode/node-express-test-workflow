@@ -1,0 +1,14 @@
+{
+  "name": "express-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"vitest",
+    "docker-test": "docker compose build && docker compose up"
+  },
+  "dependencies": {
+    "vitest": "^5.0.1"
+  }
+}
