@@ -2,10 +2,10 @@ name: Build Docker Image
 
 on:
   workflow_dispatch:
-    push:
+  push:
 
 permissions:
-  content: read
+  contents: read
 
 jobs:
   test:
